@@ -1,0 +1,15 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-partners',
+  templateUrl: './partners.component.html',
+  styleUrls: ['./partners.component.scss'],
+})
+export class PartnersComponent {
+  googleForDevelopers = {
+    image:
+      'https://www.gstatic.com/devrel-devsite/prod/v7101fe1ae309bf6f8b73931812f2304140fb851e33f225a68507501988007b93/developers/images/lockup-new.svg',
+    name: 'Google for Developers',
+    link: 'https://developers.google.com/',
+  };
+}

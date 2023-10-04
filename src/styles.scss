@@ -1,0 +1,101 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+
+@import 'mdb-angular-ui-kit/assets/scss/mdb.scss';
+@import 'variables.scss';
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('./assets/fonts/GoogleSansDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Google Sans';
+  src: url('./assets/fonts/GoogleSansDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+* {
+  font-family: 'Google Sans';
+}
+body {
+  background-color: rgba(242, 139, 130, 0.3);
+  @media screen and (max-width: 575px) {
+      padding: 0 20px;
+  }
+}
+
+.bg-df-green {
+  background-color: var(--devfest-green) !important;
+}
+.bg-df-blue {
+  background-color: var(--devfest-blue) !important;
+}
+.bg-df-red {
+  background-color: var(--devfest-red) !important;
+}
+.bg-df-yellow {
+  background-color: var(--devfest-yellow) !important;
+}
+.text-df-green {
+  color: var(--devfest-green) !important;
+}
+.text-df-blue {
+  color: var(--devfest-blue) !important;
+}
+.text-df-red {
+  color: var(--devfest-red) !important;
+}
+.text-df-yellow {
+  color: var(--devfest-yellow) !important;
+}
+.text-df-dark {
+  color: var(--devfest-grey) !important;
+}
+.text-df-light {
+  color: var(--devfest-lightgrey) !important;
+}
+.border-df-red {
+  border-color: var(--devfest-red) !important;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.btn-outline-primary {
+  border-color: var(--devfest-red);
+  color: var(--devfest-red);
+  --mdb-btn-hover-bg: var(--devfest-red);
+  &:focus {
+    border-color: var(--devfest-red) !important;
+    color: black !important;
+  }
+  &:active {
+    border-color: var(--devfest-red) !important;
+    color: var(--devfest-red) !important;
+  }
+  &:hover {
+    --mdb-btn-bg: var(--devfest-red);
+    --mdb-btn-color: white;
+    border-color: white !important;
+    color: white;
+    outline-color: white;
+  }
+}
+h1 {
+  font-size: 4vw;
+}
+h2 {
+  font-size: 3vw;
+}
+p {
+  font-size: 1.4vw;
+}

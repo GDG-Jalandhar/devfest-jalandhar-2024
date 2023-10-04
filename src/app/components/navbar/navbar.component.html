@@ -1,0 +1,54 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-4 rounded-6">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="/" aria-label="Devfest-Logo Click to go to Home Page">
+      <img src="assets/images/logo/devfest-jalandhar-brand-hero.svg" height="30" alt="" loading="lazy" />
+    </a>
+
+    <!-- Toggle button -->
+    <button class="navbar-toggler" type="button" (click)="dfNavbar.toggle()" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" mdbCollapse #dfNavbar="mdbCollapse">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Speakers</a>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Agenda</a>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Team</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="#tech" aria-disabled="true">Technologies Focused</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#partners" aria-disabled="true">Partners</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+
+      <div>
+        <!-- <a class="btn btn-outline-primary btn-rounded" href="#" role="button">Get Tickets</a> -->
+        <a class="btn btn-outline-primary btn-rounded" href="https://gdg.community.dev/gdg-jalandhar" target="_blank"
+          role="button">Join GDG Jalandhar</a>
+      </div>
+    </div>
+
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
