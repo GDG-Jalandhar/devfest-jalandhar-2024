@@ -37,3 +37,29 @@ export const TECHS = [
     logo: "https://io.google/2022/app/images/web-logo.svg",
   },
 ];
+
+export const SPONSORS = [
+
+];
+
+export const COMMUNITY_PARTNERS = [
+  {
+    name: "Kotlin Chandigarh User Group",
+    link: "https://www.linkedin.com/company/kotlin-chandigarh/",
+    image: "assets/images/partners/kotlin-chandigarh-user-group.webp",
+    addName: true,
+  },
+
+];
+
+export const VENUE_PARTNERS = [
+
+];
+
+export const TICKETING_PARTNERS = [
+
+];
+
+export const OTHER_PARTNERS = [
+
+];
