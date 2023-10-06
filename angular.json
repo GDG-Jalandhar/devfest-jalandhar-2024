@@ -30,7 +30,7 @@
               "src/favicon.ico",
               "src/assets",
               "src/manifest.webmanifest",
-              "src/robots.txt"
+              "src/robot.txt"
             ],
             "styles": [
               "src/styles.scss"
@@ -102,7 +102,7 @@
               "src/favicon.ico",
               "src/assets",
               "src/manifest.webmanifest",
-              "src/robots.txt"
+              "src/robot.txt"
             ],
             "styles": [
               "src/styles.scss"
