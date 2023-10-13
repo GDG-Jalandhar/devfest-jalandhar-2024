@@ -4,7 +4,8 @@
   <div class="container-fluid">
     <!-- Navbar brand -->
     <a class="navbar-brand" href="/" aria-label="Devfest-Logo Click to go to Home Page">
-      <img src="assets/images/logo/devfest-jalandhar-brand-hero.svg" height="30" alt="" loading="lazy" />
+      <img src="assets/images/logo/devfest-jalandhar-brand-hero.svg" height="30" alt="gdg jalandhar logo"
+        loading="lazy" />
     </a>
 
     <!-- Toggle button -->
@@ -17,26 +18,27 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent" mdbCollapse #dfNavbar="mdbCollapse">
       <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!-- <li class="nav-item">
+          <a class="nav-link" routerLink="" routerLinkActive="active">Home</a>
+        </li> -->
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="collapse" role="button" href="#about">About</a>
+          <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
         </li>
         <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Speakers</a>
+          <a class="nav-link" routerLink="/speakers" routerLinkActive="active">Speakers</a>
         </li> -->
         <!-- <li class="nav-item">
           <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Agenda</a>
         </li> -->
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Team</a>
-        </li> -->
         <li class="nav-item">
-          <a class="nav-link" href="#tech" aria-disabled="true">Technologies Focused</a>
+          <a class="nav-link" routerLink="/technologies" routerLinkActive="active">Technologies
+            Focused</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#partners" aria-disabled="true">Partners</a>
+          <a class="nav-link" routerLink="/team" routerLinkActive="active">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/partners" routerLinkActive="active">Partners</a>
         </li>
       </ul>
       <!-- Left links -->

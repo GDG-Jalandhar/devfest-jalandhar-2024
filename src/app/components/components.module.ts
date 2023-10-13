@@ -12,6 +12,7 @@ import { MdbCollapseDirective, MdbCollapseModule } from 'mdb-angular-ui-kit/coll
 import { GdgJalandharComponent } from './gdg-jalandhar/gdg-jalandhar.component';
 import { SharedModule } from '../shared/shared.module';
 import { FooterComponent } from './footer/footer.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -42,6 +43,7 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     CommonModule,
     SharedModule,
+    RouterModule,
     MdbCollapseModule
   ]
 })

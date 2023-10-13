@@ -4,3 +4,10 @@ export interface IPartner {
   link: string;
   addName: boolean;
 }
+
+export interface IPerson {
+  name: string;
+  designation: string;
+  organisation: string;
+  photoUrl: string;
+}
