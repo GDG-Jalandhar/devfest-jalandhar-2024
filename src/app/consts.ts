@@ -1,3 +1,5 @@
+import { IPartner, IPerson } from "./models";
+
 export const TECHS = [
 
   {
@@ -42,7 +44,7 @@ export const SPONSORS = [
 
 ];
 
-export const COMMUNITY_PARTNERS = [
+export const COMMUNITY_PARTNERS: IPartner[] = [
   {
     name: "Kotlin Chandigarh User Group",
     link: "https://www.linkedin.com/company/kotlin-chandigarh/",
@@ -62,4 +64,23 @@ export const TICKETING_PARTNERS = [
 
 export const OTHER_PARTNERS = [
 
+];
+
+export const VOLUNTEERS: IPerson[] = [
+  {
+    name: 'Simar Preet Singh',
+    designation: 'Software Engineer',
+    organisation: 'Redaptive Inc.',
+    photoUrl: 'assets/images/team/simar-preet-singh.jpeg',
+  },
+  {
+    name: 'Veer Pratap Singh',
+    designation: 'Tech Lead',
+    organisation: 'Antier Solutions',
+    photoUrl: 'assets/images/team/veer-pratap-singh.jpg'
+  },
+];
+
+export const SPEAKERS: IPerson []= [
+  
 ];

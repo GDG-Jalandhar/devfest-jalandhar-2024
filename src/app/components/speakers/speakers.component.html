@@ -1,1 +1,14 @@
-<p>speakers works!</p>
+<div>
+    <h2 class="text-dark text-center display-3">
+        Speakers @ DevFest Jalandhar
+    </h2>
+
+    <section class="mt-4">
+        <div class="mt-4 d-flex w-100 justify-content-center flex-wrap">
+            <div class="d-flex flex-wrap gap-4 justify-content-center my-2 px-2">
+                <app-person *ngFor="let speaker of speakers" [person]="speaker"></app-person>
+            </div>
+        </div>
+    </section>
+</div>
+<hr class="mt-5 text-df-red" />

@@ -11,7 +11,8 @@ import { PersonComponent } from './components/person/person.component';
     PersonComponent
   ],
   exports: [
-    PartnerComponent
+    PartnerComponent,
+    PersonComponent
   ],
   imports: [
     CommonModule

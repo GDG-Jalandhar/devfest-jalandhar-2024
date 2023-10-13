@@ -1,0 +1,13 @@
+.person {
+    width: 170px;
+    .img-wrapper {
+        height: 170px;
+        width: 100%;
+    }
+    p {
+        font-size: 14px;
+        &.name {
+            font-size: 18px;
+        }
+    }
+} 

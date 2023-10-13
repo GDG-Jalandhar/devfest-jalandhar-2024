@@ -23,13 +23,27 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ComponentsModule } from './components/components.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { HomeComponent } from './pages/home/home.component';
+import { AboutComponent } from './pages/about/about.component';
+import { TechnologiesFocusedComponent } from './pages/technologies-focused/technologies-focused.component';
+import { PartnersComponent } from './pages/partners/partners.component';
+import { SpeakersComponent } from './pages/speakers/speakers.component';
+import { TeamComponent } from './pages/team/team.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    AboutComponent,
+    TechnologiesFocusedComponent,
+    PartnersComponent,
+    SpeakersComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     BrowserAnimationsModule,
     MdbAccordionModule,
     MdbCarouselModule,
