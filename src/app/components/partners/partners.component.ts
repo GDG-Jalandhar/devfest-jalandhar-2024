@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { COMMUNITY_PARTNERS } from 'src/app/consts';
+import { COMMUNITY_PARTNERS, VENUE_PARTNERS } from 'src/app/consts';
 
 @Component({
   selector: 'app-partners',
@@ -16,6 +16,8 @@ export class PartnersComponent {
   };
 
   communityPartners = COMMUNITY_PARTNERS;
+
+  venuePartners = VENUE_PARTNERS;
 
   constructor() {
     console.log(this.communityPartners);

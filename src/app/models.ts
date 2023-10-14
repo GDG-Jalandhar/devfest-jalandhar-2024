@@ -3,6 +3,7 @@ export interface IPartner {
   name: string;
   link: string;
   addName: boolean;
+  bgColor?: string;
 }
 
 export interface IPerson {

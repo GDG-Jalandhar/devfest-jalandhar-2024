@@ -1,10 +1,16 @@
-
-  <a *ngIf="!partner.addName" href="{{partner.link}}" target="_blank" [title]="partner.name" class="d-block bg-light p-3 border border-2 border-df-red rounded-6">
-    <img [src]="partner.image" alt="{{partner.name}} logo" class="img-fluid"  />
+<div *ngIf="!partner.addName" [ngStyle]="{backgroundColor: partner.bgColor && partner.bgColor}"
+  [ngClass]="{'bg-light': !partner.bgColor}"
+  class="d-flex justify-content-center align-items-center p-3 border border-2 border-df-red rounded-6">
+  <a class="d-flex justify-content-center" href="{{partner.link}}" target="_blank" [title]="partner.name">
+    <img [src]="partner.image" alt="{{partner.name}} logo"
+      style="height: 80px; width: 240px; object-fit: contain; object-position: center;" />
   </a>
-
-  <a *ngIf="partner.addName" href="{{partner.link}}" target="_blank" [title]="partner.name" class="d-flex justify-content-center align-items-center bg-light p-3 border border-2 border-df-red rounded-6">
-    <img [src]="partner.image" alt="{{partner.name}} logo" class="img-thumbnail square"  />
+</div>
+<div *ngIf="partner.addName"
+  class="d-flex justify-content-center align-items-center bg-light p-3 border border-2 border-df-red rounded-6">
+  <a class="d-flex justify-content-center align-items-center" href="{{partner.link}}" target="_blank"
+    [title]="partner.name">
+    <img [src]="partner.image" alt="{{partner.name}} logo" class="img-thumbnail square" />
     <p class="ms-3 mb-0 text-df-dark lead">{{partner.name}}</p>
   </a>
-
+</div>
