@@ -18,8 +18,4 @@ export class PartnersComponent {
   communityPartners = COMMUNITY_PARTNERS;
 
   venuePartners = VENUE_PARTNERS;
-
-  constructor() {
-    console.log(this.communityPartners);
-  }
 }
