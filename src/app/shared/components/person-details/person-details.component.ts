@@ -7,13 +7,7 @@ import { IPerson } from 'src/app/models';
   templateUrl: './person-details.component.html',
   styleUrls: ['./person-details.component.scss'],
 })
-export class PersonDetailsComponent implements OnInit {
+export class PersonDetailsComponent {
   person: IPerson;
-  constructor(public modalRef: MdbModalRef<PersonDetailsComponent>) {
-    console.log(this.person);
-  }
-
-  ngOnInit(): void {
-    console.log(this.person);
-  }
+  constructor(public modalRef: MdbModalRef<PersonDetailsComponent>) {}
 }
