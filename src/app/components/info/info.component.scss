@@ -16,3 +16,17 @@ i {
     }
   }
 }
+.ae-ticket-book-button {
+  background-color: var(--devfest-red);
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  &::after {
+    display: none;
+  }
+  &:hover {
+    border: 2px solid var(--devfest-red);
+    color: var(--devfest-red);
+    background-color: white;
+  }
+}

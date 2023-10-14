@@ -23,4 +23,17 @@
       </div>
     </div>
   </section>
+  <div class="px-5 mt-5">
+    <hr class="text-df-red" />
+  </div>
+  <section class="mt-4" *ngIf="venuePartners.length > 0">
+    <h3 class="text-df-red text-center display-5">
+      Venue Partner
+    </h3>
+    <div class="mt-4 d-flex w-100 justify-content-center flex-wrap">
+      <div class="px-2 d-flex my-2" *ngFor="let partner of venuePartners">
+        <app-partner [partner]="partner"></app-partner>
+      </div>
+    </div>
+  </section>
 </div>

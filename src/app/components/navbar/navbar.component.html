@@ -22,7 +22,7 @@
           <a class="nav-link" routerLink="" routerLinkActive="active">Home</a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+          <a class="nav-link" routerLink="/about" (click)="mdbCollapse.hide()" routerLinkActive="active">About</a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" routerLink="/speakers" routerLinkActive="active">Speakers</a>
@@ -31,20 +31,23 @@
           <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Agenda</a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link" routerLink="/technologies" routerLinkActive="active">Technologies
+          <a class="nav-link" routerLink="/technologies" (click)="mdbCollapse.hide()"
+            routerLinkActive="active">Technologies
             Focused</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/team" routerLinkActive="active">Team</a>
+          <a class="nav-link" routerLink="/team" (click)="mdbCollapse.hide()" routerLinkActive="active">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/partners" routerLinkActive="active">Partners</a>
+          <a class="nav-link" routerLink="/partners" (click)="mdbCollapse.hide()" routerLinkActive="active">Partners</a>
         </li>
       </ul>
       <!-- Left links -->
 
       <div>
         <!-- <a class="btn btn-outline-primary btn-rounded" href="#" role="button">Get Tickets</a> -->
+        <button data-event-id="80002271642423" data-ticket-id="0" class="ae-ticket-book-button me-2">Get
+          Tickets</button>
         <a class="btn btn-outline-primary btn-rounded" href="https://gdg.community.dev/gdg-jalandhar" target="_blank"
           role="button">Join GDG Jalandhar</a>
       </div>
