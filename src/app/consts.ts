@@ -63,14 +63,20 @@ export const COMMUNITY_PARTNERS: IPartner[] = [
     bgColor: 'var(--devfest-grey)',
   },
   {
-    name: 'GDSC SVIET',
-    link: 'https://gdsc.community.dev/swami-vivekanand-institute-of-engineering-technology-chandigarh/',
-    image: 'assets/images/partners/google-community.webp',
+    name: 'Bizzare Coders',
+    link: 'https://www.linkedin.com/company/bizarre-coders/',
+    image: 'assets/images/partners/bizzare-coders.jpg',
     addName: true,
   },
   {
     name: 'GDSC IKGPTU',
     link: 'https://gdsc.community.dev/ik-gujral-punjab-technical-university-jalandhar/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'GDSC SVIET',
+    link: 'https://gdsc.community.dev/swami-vivekanand-institute-of-engineering-technology-chandigarh/',
     image: 'assets/images/partners/google-community.webp',
     addName: true,
   },
@@ -90,6 +96,61 @@ export const COMMUNITY_PARTNERS: IPartner[] = [
     name: 'TFUG Jalandhar',
     link: 'https://nas.io/tfug-jalandhar',
     image: 'assets/images/partners/tfug-jalandhar.png',
+    addName: true,
+  },
+  {
+    name: 'GDSC GNDU RC JAL',
+    link: 'https://gdsc.community.dev/guru-nanak-dev-university-regional-campus-jalandhar/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'GDSC NITJ',
+    link: 'https://gdsc.community.dev/guru-nanak-dev-university-regional-campus-jalandhar/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'GDSC NITJ',
+    link: 'https://gdsc.community.dev/dr-b-r-ambedkar-national-institute-of-technology-nit-jalandhar/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'GDSC CU',
+    link: 'https://gdsc.community.dev/chandigarh-university-chandigarh/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'GDSC DAVIET',
+    link: 'https://gdsc.community.dev/dav-institute-of-engineering-technology-jalandhar/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'GDSC BBSBEC',
+    link: 'https://gdsc.community.dev/baba-banda-singh-bahadur-engineering-college-fatehgarh-sahib/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'GDSC CUIET',
+    link: 'https://gdsc.community.dev/chitkara-university-chandigarh/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'Coding Bits',
+    link: 'https://www.linkedin.com/company/coding-bits/',
+    image: 'assets/images/partners/coding-bits-logo.jpeg',
+    addName: true,
+  },
+
+  {
+    name: 'Platform Tech Group',
+    link: 'http://www.platformtechs.in',
+    image: 'assets/images/partners/platform-tech-group.jpg',
     addName: true,
   },
 ];
@@ -128,4 +189,18 @@ export const VOLUNTEERS: IPerson[] = [
   },
 ];
 
-export const SPEAKERS: IPerson[] = [];
+export const SPEAKERS: IPerson[] = [
+  {
+    name: 'Akansha Jain',
+    designation: 'Ambassador',
+    organisation: 'Women Techmakers',
+    photoUrl: 'assets/images/speakers/akansha-jain.jpeg',
+    bio: "Hello, I'm Akansha, currently working as a Software Developer at Mokutan Technologies. My expertise lies in crafting applications that make a positive impact in the real world. In the past, I led Google Developer Student Clubs and proudly held the position of Gold Microsoft Learn Student Ambassador. As a Women Techmakers Ambassador, I'm particularly passionate about promoting diversity in the tech world and empowering women to thrive in technology.",
+    links: {
+      linkedin: 'https://www.linkedin.com/in/akansha-jain-2001/',
+      twitter: 'https://twitter.com/Akansha2001',
+      github: 'https://github.com/jakansha2001',
+      others: 'https://linktr.ee/akansha1611',
+    },
+  },
+];

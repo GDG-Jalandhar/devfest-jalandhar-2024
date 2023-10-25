@@ -11,4 +11,16 @@ export interface IPerson {
   designation: string;
   organisation: string;
   photoUrl: string;
+  bio?: string;
+  links?: ILinks;
+}
+
+export interface ILinks {
+  twitter?: string;
+  linkedin?: string;
+  youtube?: string;
+  github?: string;
+  medium?: string;
+  instagram?: string;
+  others?: string;
 }

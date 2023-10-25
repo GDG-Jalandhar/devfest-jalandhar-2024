@@ -1,8 +1,12 @@
-<div class="person rounded-6 border-df-red border border-2 pb-2 bg-light" (click)="openModal()">
+<div
+  class="d-flex justify-content-center align-items-center flex-column person rounded-6 border-df-red border border-2 pb-2 bg-light">
   <div class="img-wrapper">
     <img class="rounded-5 w-100 h-100 object-cover object-top" [src]="person.photoUrl" alt="{{person.name}}" />
   </div>
   <p class="name mb-0 px-2 mt-2 text-center text-dark">{{person.name}}</p>
-  <p class="designation mb-0 px-2 text-center">{{person.designation}}</p>
+  <p class="designation mb-0 px-2 text-center fw-bolder">{{person.designation}}</p>
   <p class="org mb-0 px-2 text-center">{{person.organisation}}</p>
+
+  <button class="btn btn-outline-primary w-75 cursor-pointer m-2" *ngIf="person.bio" (click)="openModal()">Know
+    More</button>
 </div>
