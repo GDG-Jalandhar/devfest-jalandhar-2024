@@ -13,10 +13,10 @@ export class PersonComponent {
   constructor(private modalService: MdbModalService) {}
 
   openModal() {
-    // this.modalService.open(PersonDetailsComponent, {
-    //   data: { person: this.person },
-    //   modalClass: 'modal-dialog-centered modal-lg',
-    // });
+    this.modalService.open(PersonDetailsComponent, {
+      data: { person: this.person },
+      modalClass: 'modal-dialog-centered modal-lg',
+    });
     return false;
   }
 }

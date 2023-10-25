@@ -2,14 +2,45 @@
   <h5 class="modal-title text-df-red">{{person.name}}</h5>
   <button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close()"></button>
 </div>
-<div class="modal-body">
-  <div class="img-container">
+<div class="modal-body row justify-content-center">
+  <div class="col-lg-4 d-flex flex-column align-items-center">
+    <div class="img-container">
+      <img class="rounded-5 w-100 h-100 object-cover object-top border border-2 border-df-red" [src]="person.photoUrl"
+        alt="{{person.name}}" />
+    </div>
+    <div class="detail-contaner mt-2">
+      <p class="mb-0 px-2 text-center fw-bolder">{{person.designation}}</p>
+      <p class="mb-0 px-2 text-center">{{person.organisation}}</p>
+    </div>
 
+    <div *ngIf="person.links" class="mt-2 d-flex justify-content-center">
+      <a *ngIf="person.links.twitter" [href]="person.links.twitter" target="_blank"
+        [attr.aria-label]="'Follow {{person.name}} on X'" class="mx-2 text-reset">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+      <a *ngIf="person.links.linkedin" [href]="person.links.linkedin" target="_blank"
+        [attr.aria-label]="'Connect with {{person.name}} on LinkedIn'" class="mx-2 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a *ngIf="person.links.instagram" [href]="person.links.instagram" target="_blank"
+        [attr.aria-label]="'Join {{person.name}} on Instagram'" class="mx-2 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a *ngIf="person.links.github" [href]="person.links.github" target="_blank"
+        [attr.aria-label]="'Find {{person.name}} on GitHub'" class="mx-2 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+      <a *ngIf="person.links.others" [href]="person.links.others" target="_blank"
+        [attr.aria-label]="'Know more about {{person.name}}'" class="mx-2 text-reset">
+        <i class="fas fa-link"></i>
+      </a>
+    </div>
   </div>
-  <div class="detail-contaner">
-
+  <div class="bio col-lg-8">
+    {{person.bio}}
   </div>
 </div>
+
 <div class="modal-footer">
   <button type="button" class="btn btn-outline-primary btn-rounded" (click)="modalRef.close()">Close</button>
 </div>
