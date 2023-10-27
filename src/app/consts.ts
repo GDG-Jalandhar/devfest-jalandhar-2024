@@ -105,8 +105,8 @@ export const COMMUNITY_PARTNERS: IPartner[] = [
     addName: true,
   },
   {
-    name: 'GDSC NITJ',
-    link: 'https://gdsc.community.dev/guru-nanak-dev-university-regional-campus-jalandhar/',
+    name: 'GDSC LPU',
+    link: 'https://gdsc.community.dev/lovely-professional-university-jalandhar/',
     image: 'assets/images/partners/google-community.webp',
     addName: true,
   },
@@ -141,12 +141,17 @@ export const COMMUNITY_PARTNERS: IPartner[] = [
     addName: true,
   },
   {
+    name: 'CDAO',
+    link: 'https://www.cdao.fun',
+    image: 'assets/images/partners/CDAO.webp',
+    addName: true,
+  },
+  {
     name: 'Coding Bits',
     link: 'https://www.linkedin.com/company/coding-bits/',
     image: 'assets/images/partners/coding-bits-logo.jpeg',
     addName: true,
   },
-
   {
     name: 'Platform Tech Group',
     link: 'http://www.platformtechs.in',
@@ -201,6 +206,19 @@ export const SPEAKERS: IPerson[] = [
       twitter: 'https://twitter.com/Akansha2001',
       github: 'https://github.com/jakansha2001',
       others: 'https://linktr.ee/akansha1611',
+    },
+  },
+  {
+    name: 'Abhishek Doshi',
+    designation: 'Google Deveoper Expert',
+    organisation: 'Dart, Flutter & Firebase',
+    photoUrl: 'assets/images/speakers/Abhishek-Doshi.webp',
+    bio: "Abhishek Doshi is a Google Developer Expert for Dart, Flutter & Firebase. He is also the Organizer of India's Largest Flutter Conference, Flutter Conf India. With over 5 years of experience working in Flutter & Firebase, he is currently working as Freelancer. He loves helping people with Flutter, Firebase and Community in general.",
+    links: {
+      linkedin: 'https://www.linkedin.com/in/abhishekdoshi26/',
+      twitter: 'https://twitter.com/AbhishekDoshi26',
+      github: 'https://github.com/AbhishekDoshi26',
+      others: 'https://abhishekdoshi.dev',
     },
   },
 ];

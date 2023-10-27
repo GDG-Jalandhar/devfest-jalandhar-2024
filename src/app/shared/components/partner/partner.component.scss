@@ -6,6 +6,10 @@ a {
       width: 75px;
       height: 75px;
       object-fit: cover;
+      box-shadow: none;
+      border: 0px none transparent;
+      border-radius: 0px;
+      background-color: transparent;
     }
   }
 }
