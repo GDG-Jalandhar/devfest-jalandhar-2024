@@ -222,3 +222,18 @@ export const SPEAKERS: IPerson[] = [
     },
   },
 ];
+
+export const MEDIA_PARTNERS = [
+  {
+    name: 'HEY PTU',
+    link: 'https://instagram.com/hey_p.t.u?igshid=MzRlODBiNWFlZA==',
+    image: 'assets/images/partners/hey-ptu.png',
+    addName: true,
+  },
+  {
+    name: 'Snapedia',
+    link: 'https://instagram.com/snap_edia?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr',
+    image: 'assets/images/partners/snapedia.jpeg',
+    addName: true,
+  },
+];
