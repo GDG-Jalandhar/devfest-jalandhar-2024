@@ -192,6 +192,60 @@ export const VOLUNTEERS: IPerson[] = [
     organisation: 'O7 Solutions',
     photoUrl: 'assets/images/team/amanpreet-kaur.jpg',
   },
+  {
+    name: 'Suraj Pandey',
+    designation: 'GDSC Lead',
+    organisation: 'GDSC IKGPTU',
+    photoUrl: 'assets/images/team/suraj_pic.jpg',
+  },
+  {
+    name: 'Kamal Nayan',
+    designation: 'Team',
+    organisation: 'Bizarre Coders',
+    photoUrl: 'assets/images/team/kamal_pic.jpg',
+  },
+  {
+    name: 'Agrim Sharma',
+    designation: 'Team',
+    organisation: 'Bizarre Coders',
+    photoUrl: 'assets/images/team/agrim_pic.jpg',
+  },
+  {
+    name: 'Aryan Sharma',
+    designation: 'Team',
+    organisation: 'Bizarre Coders',
+    photoUrl: 'assets/images/team/aryan_pic.jpg',
+  },
+  {
+    name: 'Mehak',
+    designation: 'Team',
+    organisation: 'Bizarre Coders',
+    photoUrl: 'assets/images/team/mehak_pic.jpg',
+  },
+  {
+    name: 'Simar Sidhu',
+    designation: 'Team',
+    organisation: 'Bizarre Coders',
+    photoUrl: 'assets/images/team/simar_pic.jpg',
+  },
+  {
+    name: 'Lovejeet Singh',
+    designation: 'Student',
+    organisation: 'DAV University',
+    photoUrl: 'assets/images/team/lovejeet_pic.png',
+  },
+  {
+    name: 'Gurkirat Singh',
+    designation: 'Student',
+    organisation: 'LKCTC',
+    photoUrl: 'assets/images/team/gurkirat_pic.jpeg',
+  },
+  {
+    name: 'Surbhi',
+    designation: 'Student',
+    organisation: 'DAV University',
+    photoUrl: 'assets/images/team/surbhi_pic.jpg',
+  },
 ];
 
 export const SPEAKERS: IPerson[] = [
