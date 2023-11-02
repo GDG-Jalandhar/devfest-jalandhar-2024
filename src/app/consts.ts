@@ -63,7 +63,7 @@ export const COMMUNITY_PARTNERS: IPartner[] = [
     bgColor: 'var(--devfest-grey)',
   },
   {
-    name: 'Bizzare Coders',
+    name: 'Bizarre Coders',
     link: 'https://www.linkedin.com/company/bizarre-coders/',
     image: 'assets/images/partners/bizzare-coders.jpg',
     addName: true,
@@ -193,6 +193,18 @@ export const VOLUNTEERS: IPerson[] = [
     photoUrl: 'assets/images/team/amanpreet-kaur.jpg',
   },
   {
+    name: 'Dinesh Gupta',
+    designation: 'Department of CSE',
+    organisation: 'IKGPTU',
+    photoUrl: 'assets/images/team/Dinesh_Gupta.jpg',
+  },
+  {
+    name: 'Anshu Bhasin',
+    designation: 'Faculty Advisor',
+    organisation: 'GDSC IKGPTU',
+    photoUrl: 'assets/images/team/Anshu_Bhasin.jpg',
+  },
+  {
     name: 'Suraj Pandey',
     designation: 'GDSC Lead',
     organisation: 'GDSC IKGPTU',
@@ -200,14 +212,14 @@ export const VOLUNTEERS: IPerson[] = [
   },
   {
     name: 'Kamal Nayan',
-    designation: 'Team',
-    organisation: 'Bizarre Coders',
+    designation: 'Web Dev Lead',
+    organisation: 'GDSC IKGPTU',
     photoUrl: 'assets/images/team/kamal_pic.jpg',
   },
   {
     name: 'Agrim Sharma',
-    designation: 'Team',
-    organisation: 'Bizarre Coders',
+    designation: 'Web3 Lead',
+    organisation: 'GDSC IKGPTU',
     photoUrl: 'assets/images/team/agrim_pic.jpg',
   },
   {
@@ -218,8 +230,8 @@ export const VOLUNTEERS: IPerson[] = [
   },
   {
     name: 'Mehak',
-    designation: 'Team',
-    organisation: 'Bizarre Coders',
+    designation: 'App Dev Lead',
+    organisation: 'GDSC IKGPTU',
     photoUrl: 'assets/images/team/mehak_pic.jpg',
   },
   {
@@ -245,6 +257,30 @@ export const VOLUNTEERS: IPerson[] = [
     designation: 'Student',
     organisation: 'DAV University',
     photoUrl: 'assets/images/team/surbhi_pic.jpg',
+  },
+  {
+    name: 'Rishabh Ranjan',
+    designation: 'Founder',
+    organisation: 'Hey ptu',
+    photoUrl: 'assets/images/team/Rishabh_Ranjan.jpg',
+  },
+  {
+    name: 'Nishant Kumar',
+    designation: 'Founder',
+    organisation: 'Snapedia',
+    photoUrl: 'assets/images/team/Nishant_Kumar.jpg',
+  },
+  {
+    name: 'Bhaskar Kumar',
+    designation: 'Social media manager',
+    organisation: 'GDSC IKGPTU',
+    photoUrl: 'assets/images/team/Bhaskar_Kumar.jpg',
+  },
+  {
+    name: 'Rajveer Singh',
+    designation: 'Multimedia team lead',
+    organisation: 'GDSC IKGPTU',
+    photoUrl: 'assets/images/team/Rajveer.jpg',
   },
 ];
 
