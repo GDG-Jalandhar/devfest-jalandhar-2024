@@ -205,6 +205,12 @@ export const VOLUNTEERS: IPerson[] = [
     photoUrl: 'assets/images/team/Anshu_Bhasin.jpg',
   },
   {
+    name: 'Ashwani Kumar',
+    designation: 'SOC Analyst',
+    organisation: 'LinearStack',
+    photoUrl: 'assets/images/team/ashwani-volunteer.webp',
+  },
+  {
     name: 'Suraj Pandey',
     designation: 'GDSC Lead',
     organisation: 'GDSC IKGPTU',
@@ -256,7 +262,7 @@ export const VOLUNTEERS: IPerson[] = [
     name: 'Surbhi',
     designation: 'Student',
     organisation: 'DAV University',
-    photoUrl: 'assets/images/team/surbhi_pic.jpg',
+    photoUrl: 'assets/images/team/surbhi-volunteer.webp',
   },
   {
     name: 'Rishabh Ranjan',
@@ -281,6 +287,12 @@ export const VOLUNTEERS: IPerson[] = [
     designation: 'Multimedia team lead',
     organisation: 'GDSC IKGPTU',
     photoUrl: 'assets/images/team/Rajveer.jpg',
+  },
+  {
+    name: 'Jashanpreet Kaur',
+    designation: 'Co-lead',
+    organisation: 'GDSC GNDU RC JAL',
+    photoUrl: 'assets/images/team/jashanpreet-volunteer.webp',
   },
 ];
 
@@ -312,11 +324,24 @@ export const SPEAKERS: IPerson[] = [
     },
   },
   {
+    name: 'Rivu Chakraborty',
+    designation: 'Android Architect',
+    organisation: 'Viacom18 Media',
+    photoUrl: 'assets/images/speakers/Rivu-Chakraborty.jpg',
+    bio: "Rivu Chakraborty is India's first Kotlin GDE, an Android developer, a community person, & one of the early adopters of Kotlin. With overall 11+ years of experience, he works at Viacom18 - JioCinema (India's biggest OTT platform) as Android Architect / Senior Manager. He previously used to work at Meesho (a promising unicorn E-Commerce Startup from India), Gojek (one of South-East Asia's biggest startups), Paytm (India's biggest Fintech startup), and Byju's (one of India's biggest Edtech startup). He has contributed to multiple Kotlin and Android Development books including authoring Reactive Programming in Kotlin, co-authoring Functional Kotlin the first-ever book to help Kotlin developers learn Functional Programming and use Arrow-kt in their projects, and co-authoring Hands-On Data Structures and Algorithms with Kotlin.He has been using Kotlin since December 2015. Rivu formed KotlinKolkata User Group, the first active Kotlin User Group in India. Before he had to move out of Kolkata, he was organizing meetups and events for both KotlinKolkata and GDG Kolkata. Along with organizing community & events, he also speaks at events/conferences and local meetups.",
+    links: {
+      linkedin: 'https://www.linkedin.com/in/rivuchk/',
+      twitter: 'https://twitter.com/rivuchakraborty',
+      github: '',
+      others: 'https://www.facebook.com/rivu.chakraborty.71',
+    },
+  },
+  {
     name: 'Sumit Kumar',
     designation: 'Cloud Solution Architect',
     organisation: 'Orange Business',
     photoUrl: 'assets/images/speakers/Sumit-Kumar.jpg',
-    bio: "14 years of overall Experience. Living in Cloud since 2016. Highly Skilled Certified Cloud Computing specialist has exceptional development ability and extensive knowledge of Cloud and DevOps.",
+    bio: '14 years of overall Experience. Living in Cloud since 2016. Highly Skilled Certified Cloud Computing specialist has exceptional development ability and extensive knowledge of Cloud and DevOps.',
     links: {
       linkedin: 'https://www.linkedin.com/in/sumit-kumar-ab2059132/',
       twitter: '',
@@ -326,10 +351,10 @@ export const SPEAKERS: IPerson[] = [
   },
   {
     name: 'Biswanath Giri',
-    designation: 'Google Cloud Principal Architect ',
+    designation: 'GCP Principal Architect ',
     organisation: 'LTIMindtree',
     photoUrl: 'assets/images/speakers/Biswanath-Giri.JPG',
-    bio: "Helping students and professionals to learn cloud computing ,google cloud AI/ML and Google Workspace Helping Businesses with their journey to GCP",
+    bio: 'Helping students and professionals to learn cloud computing ,google cloud AI/ML and Google Workspace Helping Businesses with their journey to GCP',
     links: {
       linkedin: 'https://www.linkedin.com/in/biswanathgiri/',
       twitter: 'https://twitter.com/bgiri_gcloud',
@@ -342,7 +367,7 @@ export const SPEAKERS: IPerson[] = [
     designation: 'Senior Engineer',
     organisation: 'Nagarro',
     photoUrl: 'assets/images/speakers/Pranav-Kumar.JPG',
-    bio: "Innovative IT professional with a proven track record of over 6 years in the industry, fueling business success through cutting-edge solutions. My expertise lies in Microsoft technologies, including MVC, .NET Core, and Azure, coupled with a solid grasp of frontend technologies like Angular and React. I thrive on automating processes to streamline operations and enhance efficiency, utilizing a range of frameworks such as C# Selenium, Protractor, Cypress, and Mocha. This passion for automation empowers organizations to optimize their workflows and achieve remarkable results. As a networking enthusiast, I eagerly seek connections with like-minded professionals who share my passion for technology and innovation. I am keen to explore new opportunities in the ever-evolving IT field, where I can contribute my skills and expertise to drive impactful change.",
+    bio: 'Innovative IT professional with a proven track record of over 6 years in the industry, fueling business success through cutting-edge solutions. My expertise lies in Microsoft technologies, including MVC, .NET Core, and Azure, coupled with a solid grasp of frontend technologies like Angular and React. I thrive on automating processes to streamline operations and enhance efficiency, utilizing a range of frameworks such as C# Selenium, Protractor, Cypress, and Mocha. This passion for automation empowers organizations to optimize their workflows and achieve remarkable results. As a networking enthusiast, I eagerly seek connections with like-minded professionals who share my passion for technology and innovation. I am keen to explore new opportunities in the ever-evolving IT field, where I can contribute my skills and expertise to drive impactful change.',
     links: {
       linkedin: 'https://www.linkedin.com/in/pranav-kumar-verma/',
       twitter: 'https://twitter.com/prnvkmr954',
@@ -355,25 +380,12 @@ export const SPEAKERS: IPerson[] = [
     designation: 'Senior Software Engineer',
     organisation: 'Astrotalk',
     photoUrl: 'assets/images/speakers/Loveleen-Kaur.jpeg',
-    bio: "Loveleen Kaur, a bundle of positivity and happiness, this tech-savvy girl loves mountains and works wonders with technology. She is currently working as an Android Developer and result oriented professional with 5 years of experience. She is Co-Organizer of GDG Chandigarh, WTM Ambassador and Google Android Educator. Hailing from the technology field, she loves logic, but also has a passion for creativity. In her free time, She loves to mentor people to help them learn and grow in their career",
+    bio: 'Loveleen Kaur, a bundle of positivity and happiness, this tech-savvy girl loves mountains and works wonders with technology. She is currently working as an Android Developer and result oriented professional with 5 years of experience. She is Co-Organizer of GDG Chandigarh, WTM Ambassador and Google Android Educator. Hailing from the technology field, she loves logic, but also has a passion for creativity. In her free time, She loves to mentor people to help them learn and grow in their career',
     links: {
       linkedin: 'https://www.linkedin.com/in/loveleen-kaur/',
       twitter: 'https://twitter.com/loveleen_nancy',
       github: '',
       others: '',
-    },
-  },
-  {
-    name: 'Rivu Chakraborty',
-    designation: 'Android Architect',
-    organisation: 'Viacom18 Media',
-    photoUrl: 'assets/images/speakers/Rivu-Chakraborty.jpg',
-    bio: "Rivu Chakraborty is India's first Kotlin GDE, an Android developer, a community person, & one of the early adopters of Kotlin. With overall 11+ years of experience, he works at Viacom18 - JioCinema (India's biggest OTT platform) as Android Architect / Senior Manager. He previously used to work at Meesho (a promising unicorn E-Commerce Startup from India), Gojek (one of South-East Asia's biggest startups), Paytm (India's biggest Fintech startup), and Byju's (one of India's biggest Edtech startup). He has contributed to multiple Kotlin and Android Development books including authoring Reactive Programming in Kotlin, co-authoring Functional Kotlin the first-ever book to help Kotlin developers learn Functional Programming and use Arrow-kt in their projects, and co-authoring Hands-On Data Structures and Algorithms with Kotlin.He has been using Kotlin since December 2015. Rivu formed KotlinKolkata User Group, the first active Kotlin User Group in India. Before he had to move out of Kolkata, he was organizing meetups and events for both KotlinKolkata and GDG Kolkata. Along with organizing community & events, he also speaks at events/conferences and local meetups.",
-    links: {
-      linkedin: 'https://www.linkedin.com/in/rivuchk/',
-      twitter: 'https://twitter.com/rivuchakraborty',
-      github: '',
-      others: 'https://www.facebook.com/rivu.chakraborty.71',
     },
   },
 ];

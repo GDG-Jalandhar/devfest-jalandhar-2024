@@ -8,13 +8,15 @@ import { PartnersComponent } from './partners/partners.component';
 import { SpeakersComponent } from './speakers/speakers.component';
 import { TeamComponent } from './team/team.component';
 import { AgendaComponent } from './agenda/agenda.component';
-import { MdbCollapseDirective, MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
+import {
+  MdbCollapseDirective,
+  MdbCollapseModule,
+} from 'mdb-angular-ui-kit/collapse';
 import { GdgJalandharComponent } from './gdg-jalandhar/gdg-jalandhar.component';
 import { SharedModule } from '../shared/shared.module';
 import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
-
-
+import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,7 @@ import { RouterModule } from '@angular/router';
     TeamComponent,
     AgendaComponent,
     GdgJalandharComponent,
-    FooterComponent
+    FooterComponent,
   ],
   exports: [
     NavbarComponent,
@@ -38,13 +40,14 @@ import { RouterModule } from '@angular/router';
     SpeakersComponent,
     TeamComponent,
     AgendaComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     CommonModule,
     SharedModule,
     RouterModule,
-    MdbCollapseModule
-  ]
+    MdbCollapseModule,
+    MdbTabsModule,
+  ],
 })
-export class ComponentsModule { }
+export class ComponentsModule {}
