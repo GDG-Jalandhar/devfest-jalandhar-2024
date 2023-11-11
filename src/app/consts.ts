@@ -141,6 +141,12 @@ export const COMMUNITY_PARTNERS: IPartner[] = [
     addName: true,
   },
   {
+    name: 'GDSC CGC',
+    link: 'https://gdsc.community.dev/chandigarh-group-of-colleges-cec-landran/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
     name: 'CDAO',
     link: 'https://www.cdao.fun',
     image: 'assets/images/partners/CDAO.webp',
