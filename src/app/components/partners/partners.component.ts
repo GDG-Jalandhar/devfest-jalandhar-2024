@@ -13,7 +13,7 @@ import {
 export class PartnersComponent {
   googleForDevelopers = {
     image:
-      'https://www.gstatic.com/devrel-devsite/prod/v7101fe1ae309bf6f8b73931812f2304140fb851e33f225a68507501988007b93/developers/images/lockup-new.svg',
+      'https://www.gstatic.com/devrel-devsite/prod/v870e399c64f7c43c99a3043db4b3a74327bb93d0914e84a0c3dba90bbfd67625/developers/images/lockup-new.svg',
     name: 'Google for Developers',
     link: 'https://developers.google.com/',
     addName: false,
