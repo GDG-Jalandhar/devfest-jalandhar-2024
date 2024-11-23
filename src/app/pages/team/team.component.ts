@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-team-page',
-  templateUrl: './team.component.html',
-  styleUrls: ['./team.component.scss'],
+    selector: 'app-team-page',
+    templateUrl: './team.component.html',
+    styleUrls: ['./team.component.scss'],
+    standalone: false
 })
 export class TeamComponent {
   constructor(private title: Title) {

@@ -3,7 +3,7 @@ a {
   height: 80px;
   .img-thumbnail {
     &.square {
-      width: 75px;
+      width: auto;
       height: 75px;
       object-fit: cover;
       box-shadow: none;

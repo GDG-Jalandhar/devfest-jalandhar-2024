@@ -1,59 +1,120 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light px-4 rounded-6">
+<nav
+  class="navbar navbar-expand-lg navbar-light bg-light px-4 rounded-6 fw-bolder"
+>
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="/" aria-label="Devfest-Logo Click to go to Home Page">
-      <img src="assets/images/logo/devfest-jalandhar-brand-hero.svg" height="30" alt="gdg jalandhar logo"
-        loading="lazy" />
+    <a
+      class="navbar-brand"
+      href="/"
+      aria-label="Devfest-Logo Click to go to Home Page"
+    >
+      <img
+        src="assets/images/logo/devfest-jalandhar-brand-hero.svg"
+        height="30"
+        alt="gdg jalandhar logo"
+        loading="lazy"
+      />
     </a>
 
     <!-- Toggle button -->
-    <button class="navbar-toggler" type="button" (click)="dfNavbar.toggle()" aria-expanded="false"
-      aria-label="Toggle navigation">
+    <button
+      class="navbar-toggler"
+      type="button"
+      (click)="dfNavbar.toggle()"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <i class="fas fa-bars"></i>
     </button>
 
     <!-- Collapsible wrapper -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" mdbCollapse #dfNavbar="mdbCollapse">
+    <div
+      class="collapse navbar-collapse"
+      id="navbarSupportedContent"
+      mdbCollapse
+      #dfNavbar="mdbCollapse"
+    >
       <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <!-- <li class="nav-item">
           <a class="nav-link" routerLink="" routerLinkActive="active">Home</a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link" routerLink="/about" (click)="mdbCollapse.hide()" routerLinkActive="active">About</a>
+          <a
+            class="nav-link"
+            routerLink="/about"
+            (click)="mdbCollapse.hide()"
+            routerLinkActive="active"
+            >About</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/speakers" routerLinkActive="active">Speakers</a>
+          <a class="nav-link" routerLink="/speakers" routerLinkActive="active"
+            >Speakers</a
+          >
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Agenda</a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link" routerLink="/technologies" (click)="mdbCollapse.hide()"
-            routerLinkActive="active">Technologies
-            Focused</a>
+          <a
+            class="nav-link"
+            routerLink="/technologies"
+            (click)="mdbCollapse.hide()"
+            routerLinkActive="active"
+            >Technologies Focused</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/team" (click)="mdbCollapse.hide()" routerLinkActive="active">Team</a>
+          <a
+            class="nav-link"
+            routerLink="/team"
+            (click)="mdbCollapse.hide()"
+            routerLinkActive="active"
+            >Team</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/partners" (click)="mdbCollapse.hide()" routerLinkActive="active">Partners</a>
+          <a
+            class="nav-link"
+            routerLink="/partners"
+            (click)="mdbCollapse.hide()"
+            routerLinkActive="active"
+            >Partners</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="/faqs"
+            (click)="mdbCollapse.hide()"
+            routerLinkActive="active"
+            >FAQs</a
+          >
         </li>
       </ul>
       <!-- Left links -->
 
       <div>
         <!-- <a class="btn btn-outline-primary btn-rounded" href="#" role="button">Get Tickets</a> -->
-        <a class="btn btn-primary bg-df-red btn-rounded me-2" href="https://bit.ly/dfj-venue" target="_blank"
-          role="button">Navgate
-          to venue</a>
-        <a class="btn btn-outline-primary btn-rounded" href="https://gdg.community.dev/gdg-jalandhar" target="_blank"
-          role="button">Join GDG Jalandhar</a>
+        <a
+          class="btn btn-primary bg-df-red btn-rounded me-2 fw-bolder"
+          href="https://bit.ly/dfj-venue"
+          target="_blank"
+          role="button"
+          >Navgate to venue</a
+        >
+        <a
+          class="btn btn-outline-primary btn-rounded fw-bolder"
+          href="https://gdg.community.dev/gdg-jalandhar"
+          target="_blank"
+          role="button"
+          >Join GDG Jalandhar</a
+        >
       </div>
     </div>
-
   </div>
   <!-- Container wrapper -->
 </nav>

@@ -29,7 +29,7 @@ nav {
       display: none;
     }
     &:hover {
-      border: 2px solid var(--devfest-red);
+      border: 2px solid var(--devfest-red) !important;
       color: var(--devfest-red);
       background-color: white;
     }

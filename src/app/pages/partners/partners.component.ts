@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-partners-page',
-  templateUrl: './partners.component.html',
-  styleUrls: ['./partners.component.scss'],
+    selector: 'app-partners-page',
+    templateUrl: './partners.component.html',
+    styleUrls: ['./partners.component.scss'],
+    standalone: false
 })
 export class PartnersComponent {
   constructor(private title: Title) {

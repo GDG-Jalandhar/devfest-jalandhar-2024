@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {
   COMMUNITY_PARTNERS,
   MEDIA_PARTNERS,
+  TICKETING_PARTNERS,
   VENUE_PARTNERS,
 } from 'src/app/consts';
 
@@ -9,6 +10,7 @@ import {
   selector: 'app-partners',
   templateUrl: './partners.component.html',
   styleUrls: ['./partners.component.scss'],
+  standalone: false,
 })
 export class PartnersComponent {
   googleForDevelopers = {
@@ -24,4 +26,6 @@ export class PartnersComponent {
   venuePartners = VENUE_PARTNERS;
 
   mediaPartners = MEDIA_PARTNERS;
+
+  ticketingPartners = TICKETING_PARTNERS;
 }

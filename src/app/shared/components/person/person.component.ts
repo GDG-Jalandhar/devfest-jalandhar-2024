@@ -4,9 +4,10 @@ import { IPerson } from 'src/app/models';
 import { PersonDetailsComponent } from '../person-details/person-details.component';
 
 @Component({
-  selector: 'app-person',
-  templateUrl: './person.component.html',
-  styleUrls: ['./person.component.scss'],
+    selector: 'app-person',
+    templateUrl: './person.component.html',
+    styleUrls: ['./person.component.scss'],
+    standalone: false
 })
 export class PersonComponent {
   @Input() person: IPerson;

@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-technologies-focused',
-  templateUrl: './technologies-focused.component.html',
-  styleUrls: ['./technologies-focused.component.scss'],
+    selector: 'app-technologies-focused',
+    templateUrl: './technologies-focused.component.html',
+    styleUrls: ['./technologies-focused.component.scss'],
+    standalone: false
 })
 export class TechnologiesFocusedComponent {
   constructor(private title: Title) {

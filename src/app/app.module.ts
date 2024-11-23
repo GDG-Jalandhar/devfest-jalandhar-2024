@@ -30,6 +30,7 @@ import { PartnersComponent } from './pages/partners/partners.component';
 import { SpeakersComponent } from './pages/speakers/speakers.component';
 import { TeamComponent } from './pages/team/team.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FaqsComponent } from './pages/faqs/faqs.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { AppRoutingModule } from './app-routing.module';
     TechnologiesFocusedComponent,
     PartnersComponent,
     SpeakersComponent,
-    TeamComponent
+    TeamComponent,
+    FaqsComponent,
   ],
   imports: [
     BrowserModule,
@@ -59,15 +61,16 @@ import { AppRoutingModule } from './app-routing.module';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
+    MdbAccordionModule,
     ComponentsModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),
       // Register the ServiceWorker as soon as the application is stable
       // or after 30 seconds (whichever comes first).
-      registrationStrategy: 'registerWhenStable:30000'
-    })
+      registrationStrategy: 'registerWhenStable:30000',
+    }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

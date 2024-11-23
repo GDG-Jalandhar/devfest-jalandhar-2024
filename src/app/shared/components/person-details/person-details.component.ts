@@ -3,9 +3,10 @@ import { MdbModalRef } from 'mdb-angular-ui-kit/modal';
 import { IPerson } from 'src/app/models';
 
 @Component({
-  selector: 'app-person-details',
-  templateUrl: './person-details.component.html',
-  styleUrls: ['./person-details.component.scss'],
+    selector: 'app-person-details',
+    templateUrl: './person-details.component.html',
+    styleUrls: ['./person-details.component.scss'],
+    standalone: false
 })
 export class PersonDetailsComponent {
   person: IPerson;
