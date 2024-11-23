@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/devfest-jalandhar-2024",
+    "public": "dist/devfest-jalandhar-2024/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
