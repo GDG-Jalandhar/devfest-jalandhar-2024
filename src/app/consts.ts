@@ -207,7 +207,7 @@ export const VOLUNTEERS: IPerson[] = [
     links: {
       linkedin: 'https://www.linkedin.com/in/kauramanp/',
       twitter: 'https://x.com/kauramanp',
-      github: '',
+      github: 'https://github.com/kauramanp',
       others: '',
     },
   },
@@ -221,7 +221,7 @@ export const VOLUNTEERS: IPerson[] = [
       linkedin: 'https://www.linkedin.com/in/programmersingh/',
       twitter: 'https://x.com/programmersingh',
       github: 'https://github.com/theprogrammersingh',
-      others: '',
+      others: 'https://bio.link/programmersingh',
     },
   },
 
@@ -234,8 +234,8 @@ export const VOLUNTEERS: IPerson[] = [
     links: {
       linkedin: 'https://www.linkedin.com/in/surajjbhardwaj/',
       twitter: 'https://x.com/Surajjbhardwajj',
-      github: '',
-      others: '',
+      github: 'https://github.com/surajjBhardwaj/',
+      others: 'https://bio.link/surajpandey',
     },
   },
   {
@@ -248,7 +248,7 @@ export const VOLUNTEERS: IPerson[] = [
       linkedin: 'https://www.linkedin.com/in/bhaskar-kumar-5b5a2922b/',
       twitter: '',
       github: '',
-      others: '',
+      others: 'https://www.instagram.com/_bhaskar_thakur',
     },
   },
 ];
