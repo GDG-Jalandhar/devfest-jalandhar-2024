@@ -138,6 +138,12 @@ export const COMMUNITY_PARTNERS: IPartner[] = [
     addName: true,
   },
   {
+    name: 'FOSS United Jalandhar',
+    link: 'https://fossunited.org/c/jalandhar',
+    image: 'assets/images/partners/foss-united-jalandhar.webp',
+    addName: true,
+  },
+  {
     name: 'Girls in Tech',
     link: 'https://www.linkedin.com/company/girls-in-tech-community/',
     image: 'assets/images/partners/girls-in-tech.webp',
