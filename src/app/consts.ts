@@ -19,12 +19,12 @@ export const TECHS = [
   },
   {
     name: 'Gemini',
-    link: 'https://developers.google.com/assistant',
+    link: 'https://ai.google.dev/',
     logo: 'https://developers.google.com/static/focus/images/gemini-icon.png',
   },
   {
     name: 'Google Cloud',
-    link: 'https://developer.android.com/',
+    link: 'https://cloud.google.com/',
     logo: 'https://www.gstatic.com/images/branding/product/2x/google_cloud_64dp.png',
   },
   {
