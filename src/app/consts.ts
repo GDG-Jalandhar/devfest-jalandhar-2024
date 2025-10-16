@@ -407,7 +407,7 @@ export const FAQS: FAQ[] = [
   {
     question: 'What is DevFest Jalandhar 2025?',
     answer:
-      'DevFest Jalandhar is one of the biggest anuual tech conferences in North India. DevFest Jalandhar 2025 is the  It is a completely volunteer-led and community-driven conference hosted by GDG Jalandhar. The event will have multiple tracks and sessions on different technologies and will be conducted by industry experts. The motive of this event is to bring the Developer Community of Punjab and Chandigarh under one roof, providing them chance to network with each other and industry experts.',
+      'DevFest Jalandhar is one of the biggest annual tech conferences in North India. DevFest Jalandhar 2025 is the  It is a completely volunteer-led and community-driven conference hosted by GDG Jalandhar. The event will have multiple tracks and sessions on different technologies and will be conducted by industry experts. The motive of this event is to bring the Developer Community of Punjab and Chandigarh under one roof, providing them chance to network with each other and industry experts.',
   },
   {
     question: 'What is Google Developer Groups (GDG)?',
