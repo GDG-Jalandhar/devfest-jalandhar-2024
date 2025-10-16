@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SPEAKERS } from 'src/app/consts';
 
 @Component({
     selector: 'app-home',
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
     standalone: false
 })
 export class HomeComponent {
-
+    speakers = SPEAKERS;
 }

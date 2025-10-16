@@ -6,7 +6,7 @@
       <app-partner [partner]="googleForDevelopers"></app-partner>
     </div>
   </section>
-  <div class="px-5 mt-5">
+  <div class="px-5 mt-5" *ngIf="venuePartners.length > 0">
     <hr class="text-df-red" />
   </div>
   <section class="mt-4" *ngIf="venuePartners.length > 0">
@@ -17,7 +17,7 @@
       </div>
     </div>
   </section>
-  <div class="px-5 mt-5">
+  <div class="px-5 mt-5" *ngIf="communityPartners.length > 0">
     <hr class="text-df-red" />
   </div>
   <section class="mt-4" *ngIf="communityPartners.length > 0">
@@ -28,10 +28,10 @@
       </div>
     </div>
   </section>
-  <div class="px-5 mt-5">
+  <div class="px-5 mt-5" *ngIf="mediaPartners.length > 0">
     <hr class="text-df-red" />
   </div>
-  <section class="mt-4" *ngIf="communityPartners.length > 0">
+  <section class="mt-4" *ngIf="mediaPartners.length > 0">
     <h3 class="text-df-red text-center display-5">
       Pro Bono Multimedia Service
     </h3>
@@ -41,10 +41,10 @@
       </div>
     </div>
   </section>
-  <div class="px-5 mt-5">
+  <div class="px-5 mt-5" *ngIf="ticketingPartners.length > 0">
     <hr class="text-df-red" />
   </div>
-  <section class="mt-4" *ngIf="communityPartners.length > 0">
+  <section class="mt-4" *ngIf="ticketingPartners.length > 0">
     <h3 class="text-df-red text-center display-5">Ticketing Partner</h3>
     <div class="mt-4 d-flex w-100 justify-content-center flex-wrap">
       <div class="px-2 d-flex my-2" *ngFor="let partner of ticketingPartners">
