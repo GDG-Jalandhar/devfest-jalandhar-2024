@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {
   COMMUNITY_PARTNERS,
   MEDIA_PARTNERS,
+  SPONSORS,
   TICKETING_PARTNERS,
   VENUE_PARTNERS,
 } from 'src/app/consts';
@@ -22,6 +23,7 @@ export class PartnersComponent {
   };
 
   communityPartners = COMMUNITY_PARTNERS;
+  sponsors = SPONSORS;
 
   venuePartners = VENUE_PARTNERS;
 

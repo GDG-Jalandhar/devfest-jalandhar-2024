@@ -38,123 +38,197 @@ export const TECHS = [
     logo: 'https://developers.google.com/static/homepage-assets/images/chromeos-logo.svg',
   },
   {
-    name: 'Project IDX',
-    link: 'https://idx.dev/',
-    logo: 'https://developers.google.com/static/products/images/project-idx_1920.png',
-  },
-  {
     name: 'Angular',
     link: 'https://angular.dev/',
     logo: 'https://developers.google.com/static/homepage-assets/images/angular_gradient.png',
   },
 ];
 
-export const SPONSORS = [];
+export const SPONSORS: IPartner[] = [
+  {
+    name: 'Slay.space',
+    link: 'https://slay.space/',
+    image: 'https://slay.space/Singh.png',
+    addName: true,
+  }
+];
 
 export const COMMUNITY_PARTNERS: IPartner[] = [
-  // {
-  //   name: 'GDG on Campus SVIET',
-  //   link: 'https://gdsc.community.dev/swami-vivekanand-institute-of-engineering-technology-chandigarh/',
-  //   image: 'assets/images/partners/google-community.webp',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'GDG on Campus Punjabi University Patiala',
-  //   link: 'https://gdsc.community.dev/punjabi-university-patiala/',
-  //   image: 'assets/images/partners/google-community.webp',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'GDG on Campus NIT Jalandhar',
-  //   link: 'https://gdsc.community.dev/dr-b-r-ambedkar-national-institute-of-technology-nit-jalandhar/',
-  //   image: 'assets/images/partners/google-community.webp',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'GDG on Campus Chandigarh Univeristy',
-  //   link: 'https://gdsc.community.dev/chandigarh-university-chandigarh/',
-  //   image: 'assets/images/partners/google-community.webp',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'GDG on Campus Chitkara University',
-  //   link: 'https://gdsc.community.dev/chitkara-university-chandigarh/',
-  //   image: 'assets/images/partners/google-community.webp',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'GDG on Campus CGC COE',
-  //   link: 'https://gdsc.community.dev/chandigarh-group-of-colleges-cec-landran/',
-  //   image: 'assets/images/partners/google-community.webp',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'GDG on Campus PUSSGRC',
-  //   link: 'https://gdsc.community.dev/chandigarh-group-of-colleges-cec-landran/',
-  //   image: 'assets/images/partners/google-community.webp',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'GDG on Campus DAV University',
-  //   link: 'https://gdsc.community.dev/chandigarh-group-of-colleges-cec-landran/',
-  //   image: 'assets/images/partners/google-community.webp',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'GDG on Campus Gulzar Group of Institutes',
-  //   link: 'https://gdsc.community.dev/chandigarh-group-of-colleges-cec-landran/',
-  //   image: 'assets/images/partners/google-community.webp',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'GDG on Campus Indo Global College',
-  //   link: 'https://gdsc.community.dev/chandigarh-group-of-colleges-cec-landran/',
-  //   image: 'assets/images/partners/google-community.webp',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'TFUG Jalandhar',
-  //   link: 'https://nas.io/tfug-jalandhar',
-  //   image: 'assets/images/partners/tfug-jalandhar.png',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'Open Source Chandigarh',
-  //   link: 'https://www.linkedin.com/company/open-source-chandigarh/',
-  //   image: 'assets/images/partners/open-source-chandigarh.webp',
-  //   addName: false,
-  // },
-  // {
-  //   name: 'D4 Community',
-  //   link: 'https://www.biodrop.io/D4-Community',
-  //   image: 'assets/images/partners/D4-Community.png',
-  //   addName: false,
-  //   bgColor: 'var(--devfest-grey)',
-  // },
-  // {
-  //   name: 'Bizarre Coders',
-  //   link: 'https://www.linkedin.com/company/bizarre-coders/',
-  //   image: 'assets/images/partners/bizzare-coders.jpg',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'FOSS United Jalandhar',
-  //   link: 'https://fossunited.org/c/jalandhar',
-  //   image: 'assets/images/partners/foss-united-jalandhar.webp',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'Girls in Tech',
-  //   link: 'https://www.linkedin.com/company/girls-in-tech-community/',
-  //   image: 'assets/images/partners/girls-in-tech.webp',
-  //   addName: true,
-  // },
-  // {
-  //   name: 'YATU Learn',
-  //   link: 'https://yatulearn.online/',
-  //   image: 'assets/images/partners/yatu-learn.webp',
-  //   addName: true,
-  // },
+  {
+    name: 'GDG Chandigarh',
+    link: '',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'GDG Cloud Chandigarh',
+    link: '',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'GDG on Campus SVIET',
+    link: 'https://gdsc.community.dev/swami-vivekanand-institute-of-engineering-technology-chandigarh/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+
+  {
+    name: 'GDG on Campus IGC',
+    link: 'https://gdg.community.dev/gdg-on-campus-indo-global-college-mohali-india/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'GDG on Campus PUP',
+    link: 'https://gdg.community.dev/gdg-on-campus-punjabi-university-patiala-india/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'GDG on Campus CGC COE',
+    link: 'https://gdg.community.dev/gdg-on-campus-chandigarh-group-of-colleges-coe-campus-landran-india/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'GDG on Campus DAV University',
+    link: 'https://gdg.community.dev/gdg-on-campus-dav-university-jalandhar-india/',
+    image: 'assets/images/partners/google-community.webp',
+    addName: true,
+  },
+  {
+    name: 'AI Jalandhar',
+    link: 'https://www.commudle.com/communities/tfug-jalandhar',
+    image: 'assets/images/partners/aicommunityjalandhar.webp',
+    addName: false,
+  },
+  {
+    name: 'ML Chandigarh',
+    link: 'https://www.commudle.com/communities/tfug-jalandhar',
+    image: 'assets/images/partners/mlchandigarh.webp',
+    addName: false,
+  },
+  {
+    name: 'YATU Learn',
+    link: 'https://www.yatulearn.fun',
+    image: 'assets/images/partners/yatulearn.webp',
+    addName: false,
+  },
+
+  {
+    name: 'The Uniques Community',
+    link: 'https://share.google/Ivcu5n67aBnbMrJfC',
+    image: 'assets/images/partners/theuniquescommunity.webp',
+    addName: false,
+  },
+  {
+    name: 'Bugbaar',
+    link: 'https://bugbaar.vercel.app/',
+    image: 'assets/images/partners/bugbaar.webp',
+    addName: false,
+  },
+  {
+    name: 'D4 Community',
+    link: 'https://share.google/WRCCEgNprAMj55YJR',
+    image: 'assets/images/partners/d4community.webp',
+    addName: false,
+  },
+
+  {
+    name: 'Open Source Chandigarh',
+    link: 'https://linktr.ee/opensourcechandigarh',
+    image: 'assets/images/partners/opensourcechandigarh.webp',
+    addName: false,
+  },
+  {
+    name: 'Encrypt edge',
+    link: 'encrypt-edge.vercel.app',
+    image: 'assets/images/partners/encryptedge.webp',
+    addName: false,
+  },
+
+  {
+    name: 'Learner\'s Arc',
+    link: 'https://www.learnersarc.com/',
+    image: 'assets/images/partners/learnersarc.webp',
+    addName: false,
+  },
+
+  {
+    name: 'Girls Leading Tech',
+    link: 'https://www.linkedin.com/company/girlsleadingtech/',
+    image: 'assets/images/partners/girlsleadingtech.webp',
+    addName: false,
+  },
+
+  {
+    name: 'Mentorle',
+    link: 'https://www.mentorle.in/',
+    image: 'assets/images/partners/mentorle.webp',
+    addName: false,
+  },
+  {
+    name: 'C Square',
+    link: 'https://www.linkedin.com/company/csquare-club/',
+    image: 'assets/images/partners/csquare.webp',
+    addName: false,
+  },
+  {
+    name: 'CodeZen',
+    link: 'https://www.instagram.com/officialcodezen?igsh=OGU2b3N4Z2N0Njhi',
+    image: 'assets/images/partners/codezen.webp',
+    addName: false,
+  },
+  {
+    name: 'CU Updates',
+    link: 'https://www.linkedin.com/company/cu-updates/',
+    image: 'assets/images/partners/cuupdates.webp',
+    addName: false,
+  },
+  {
+    name: 'DevHive',
+    link: 'https://www.linkedin.com/company/devhive-club/',
+    image: 'assets/images/partners/devhive.webp',
+    addName: false,
+  },
+  {
+    name: 'HackHalt - Community',
+    link: 'hackhalt.org',
+    image: 'assets/images/partners/hackhalt.webp',
+    addName: false,
+  },
+  {
+    name: 'Bug2Build',
+    link: 'https://bug2build.in/',
+    image: 'assets/images/partners/bug2build.webp',
+    addName: true,
+  },
+  {
+    name: 'Elite Coders',
+    link: 'http://elitecoders.xyz',
+    image: 'assets/images/partners/elitecoder.webp',
+    addName: false,
+  },
+  {
+    name: 'The Kailshians',
+    link: 'https://www.linkedin.com/company/the-kailshians/',
+    image: 'assets/images/partners/kailshians.webp',
+    addName: false,
+  },
+  {
+    name: 'Ascent circle',
+    link: 'ascentcircle.web.app',
+    image: 'assets/images/partners/ascentcircle.webp',
+    addName: false,
+  },
+  {
+    name: 'The SEED Club',
+    link: 'https://www.linkedin.com/company/seedclub-ssd/',
+    image: 'assets/images/partners/seedclub.webp',
+    addName: false,
+  },
+
 ];
 
 export const VENUE_PARTNERS: IPartner[] = [
@@ -220,178 +294,33 @@ export const VOLUNTEERS: IPerson[] = [
 ];
 
 export const SPEAKERS: IPerson[] = [
-  // {
-  //   name: 'Kartik Derasari',
-  //   designation: 'Solutions Engineering Lead',
-  //   organisation: 'Persistent Systems',
-  //   photoUrl: 'assets/images/speakers/kartik-derasari.webp',
-  //   bio: 'Kartik Derasari is a Solutions Engineer and Developer Advocate with extensive expertise in full-stack development, data analytics, and cloud technologies. A 6X Google Cloud Certified professional and Google Developer Expert for Google Cloud, he serves as Engineering Lead at Persistent Systems, focusing on AppDev, Generative AI, and Data Analytics solutions. Kartik is an active community leader, speaker at over 150 global tech events, and mentors startups through the Google for Startups program.',
-  //   links: {
-  //     linkedin: 'https://www.linkedin.com/in/kartikderasari/',
-  //     twitter: 'https://twitter.com/kartik_derasari',
-  //     github: 'https://github.com/kartikderasari',
-  //     others:
-  //       'https://www.youtube.com/playlist?list=PLVSpDZjKZqlz7wfpRRjoBHAnfY3-gzjOl',
-  //   },
-  // },
-  // {
-  //   name: 'Abhishek Doshi',
-  //   designation: 'Google Deveoper Expert',
-  //   organisation: 'Dart, Flutter & Firebase',
-  //   photoUrl: 'assets/images/speakers/abhishek-doshi.webp',
-  //   bio: "Abhishek Doshi is a Google Developer Expert for Dart, Flutter & Firebase. He is also the Organizer of India's Largest Flutter Conference, Flutter Conf India. With over 5 years of experience working in Flutter & Firebase, he is currently working as Freelancer. He loves helping people with Flutter, Firebase and Community in general.",
-  //   links: {
-  //     linkedin: 'https://www.linkedin.com/in/abhishekdoshi26/',
-  //     twitter: 'https://twitter.com/AbhishekDoshi26',
-  //     github: 'https://github.com/AbhishekDoshi26',
-  //     others: 'https://abhishekdoshi.dev',
-  //   },
-  // },
-  // {
-  //   name: 'Tarun Jain',
-  //   designation: 'Google Developer Expert',
-  //   organisation: 'AI / ML',
-  //   photoUrl: 'assets/images/speakers/tarun-jain.webp',
-  //   bio: 'Tarun Jain is a Data Scientist at AI Planet and a Google Developer Expert in AI/ML. An active contributor to open-source, he maintains projects like OpenAGI and BeyondLLM. Tarun is participating in Google Summer of Code 2024 at Red Hen Lab and has been a Pie & AI Ambassador with DeepLearning.AI, curating content for his YouTube channel "AI with Tarun."',
-  //   links: {
-  //     linkedin: 'https://linkedin.com/in/jaintarun75',
-  //     twitter: 'https://twitter.com/TRJ_0751',
-  //     github: 'https://github.com/lucifertrj',
-  //     others: 'https://tarunjain.netlify.app/',
-  //   },
-  // },
-  // {
-  //   name: 'Gaurav Madaan',
-  //   designation: 'Co-Founder & CTO',
-  //   organisation: 'niwi.ai',
-  //   photoUrl: 'assets/images/speakers/gaurav-madaan.webp',
-  //   bio: 'Gaurav Madaan is a seasoned software professional with over 13 years of experience in implementing high-quality client software solutions. He has developed high-performance, maintainable, and reliable solutions for the Telecom, Medical, and Insurance industries. Currently, Gaurav manages a team of 8-10 people, designs solutions for business challenges using tools like Lucidchart and PlantUML, and participates in Azure DevOps activities including CI/CD and Infrastructure as Code on Azure. Proficient in full-stack development with ASP.NET Core C# and Angular, he also specializes in migrating monolithic applications to microservices architecture. Passionate about learning and sharing knowledge, Gaurav runs a meetup group for technology professionals.',
-  //   links: {
-  //     linkedin: 'https://www.linkedin.com/in/codestellar/',
-  //     twitter: 'https://x.com/codestellar',
-  //     github: '',
-  //     others: '',
-  //   },
-  // },
-  // {
-  //   name: 'Akansha Jain',
-  //   designation: 'Ambassador',
-  //   organisation: 'Women Techmakers',
-  //   photoUrl: 'assets/images/speakers/akansha-jain.webp',
-  //   bio: "Hello, I'm Akansha, currently working as a Software Developer at Mokutan Technologies. My expertise lies in crafting applications that make a positive impact in the real world. In the past, I led Google Developer Student Clubs and proudly held the position of Gold Microsoft Learn Student Ambassador. As a Women Techmakers Ambassador, I'm particularly passionate about promoting diversity in the tech world and empowering women to thrive in technology.",
-  //   links: {
-  //     linkedin: 'https://www.linkedin.com/in/akansha-jain-2001/',
-  //     twitter: 'https://twitter.com/Akansha2001',
-  //     github: 'https://github.com/jakansha2001',
-  //     others: 'https://linktr.ee/akansha1611',
-  //   },
-  // },
-  // {
-  //   name: 'Sakshi Nasha',
-  //   designation: 'Software Engineer',
-  //   organisation: 'Veritas Technologies',
-  //   photoUrl: 'assets/images/speakers/sakshi-nasha.webp',
-  //   bio: 'Sakshi Nasha is an enthusiastic learner passionate about leveraging technology for global impact. Active in tech communities like Pune FOSS and the MongoDB User Group, she enjoys public speaking and community involvement. A zonal-level athlete in basketball, badminton, and football, Sakshi also expresses her creativity through writing. When not coding, she enjoys trekking and cycling.',
-  //   links: {
-  //     linkedin: 'https://www.linkedin.com/in/sakshi-nasha/',
-  //     twitter: 'https://x.com/SakshiNasha',
-  //     github: '',
-  //     others: '',
-  //   },
-  // },
-  // {
-  //   name: 'Luxmi Gupta',
-  //   designation: 'Mobile Developer',
-  //   organisation: 'Nippon Data System',
-  //   photoUrl: 'assets/images/speakers/luxmi-gupta.webp',
-  //   bio: 'Luxmi Gupta is a mobile app developer with over 3 years of industrial experience, specializing in building scalable mobile applications from scratch. Having completed more than 10 projects, she is proficient in Flutter and dedicated to writing clean, maintainable code. A self-starter and team player, Luxmi stays current with the latest trends and best practices in mobile development.',
-  //   links: {
-  //     linkedin: 'https://www.linkedin.com/in/luxmi-gupta-058519191/',
-  //     twitter: 'https://x.com/luxmigupta1799',
-  //     github: '',
-  //     others: 'https://developers.google.com/profile/u/luxmigupta1799',
-  //   },
-  // },
-  // {
-  //   name: 'Pranav Kumar Verma',
-  //   designation: 'Senior Engineer',
-  //   organisation: 'Nagarro',
-  //   photoUrl: 'assets/images/speakers/pranav-kumar.webp',
-  //   bio: 'Innovative IT professional with a proven track record of over 6 years in the industry, fueling business success through cutting-edge solutions. My expertise lies in Microsoft technologies, including MVC, .NET Core, and Azure, coupled with a solid grasp of frontend technologies like Angular and React. I thrive on automating processes to streamline operations and enhance efficiency, utilizing a range of frameworks such as C# Selenium, Protractor, Cypress, and Mocha. This passion for automation empowers organizations to optimize their workflows and achieve remarkable results. As a networking enthusiast, I eagerly seek connections with like-minded professionals who share my passion for technology and innovation. I am keen to explore new opportunities in the ever-evolving IT field, where I can contribute my skills and expertise to drive impactful change.',
-  //   links: {
-  //     linkedin: 'https://www.linkedin.com/in/pranav-kumar-verma/',
-  //     twitter: 'https://twitter.com/prnvkmr954',
-  //     github: 'https://github.com/kumar-pranaw',
-  //     others: 'https://kumarpranaw.com/',
-  //   },
-  // },
-  // {
-  //   name: 'Loveleen Kaur',
-  //   designation: 'Senior Software Engineer',
-  //   organisation: 'Astrotalk',
-  //   photoUrl: 'assets/images/speakers/loveleen-kaur.webp',
-  //   bio: 'Loveleen Kaur, a bundle of positivity and happiness, this tech-savvy girl loves mountains and works wonders with technology. She is currently working as an Android Developer and result oriented professional with 5 years of experience. She is Co-Organizer of MUG Chandigarh, WTM Ambassador and Google Android Educator. Hailing from the technology field, she loves logic, but also has a passion for creativity. In her free time, She loves to mentor people to help them learn and grow in their career',
-  //   links: {
-  //     linkedin: 'https://www.linkedin.com/in/loveleen-kaur/',
-  //     twitter: 'https://twitter.com/loveleen_nancy',
-  //     github: '',
-  //     others: '',
-  //   },
-  // },
-  // {
-  //   name: 'Preksha Mahajan',
-  //   designation: 'Mentor',
-  //   organisation: 'Open Source Chandigarh',
-  //   photoUrl: 'assets/images/speakers/preksha-mahajan.webp',
-  //   bio: 'Preksha Mahajan is a Computer Science Engineering student passionate about Open Source, Web, and App Development. As a mentor and former Community Lead at Open Source Chandigarh, she fosters collaborative tech environments. Proficient in Python and web technologies, Preksha led the #100daysofcodeatChitkara initiative and is a national-level chess player who represented Punjab in SGFI 2019.',
-  //   links: {
-  //     linkedin: 'https://www.linkedin.com/in/preksha-mahajan-090359214/',
-  //     twitter: 'https://x.com/MahajanPreksha',
-  //     github: '',
-  //     others: 'https://linktr.ee/PrekshaMahajan',
-  //   },
-  // },
+  {
+    name: 'Niharika Arora',
+    designation: 'Senior Android Engineer',
+    organisation: 'Google',
+    photoUrl: 'assets/images/speakers/Niharika.webp',
+    bio: `Niharika Arora is currently working as a Senior Android Developer Relations Engineer at Google and serves as the Chair of the FIDO India Working Group.
+She focuses on enhancing the identity and authentication experience, making it safer and more seamless for Android users. She has helped leading Android apps successfully adopt passkeys, enabling passwordless and secure authentication. Her previous work includes improving performance of top Android apps.
+Prior to joining Google, she was a Google Developer Expert for Android and was one of the key contributors to the Government of India’s contact tracing app, Aarogya Setu. She has also been recognized as one of the 40 Under 40 Indian Achievers for her contributions towards the tech community.
+`,
+    links: {
+      linkedin: 'https://www.linkedin.com/in/thedroidlady/',
+      twitter: 'https://x.com/theDroidLady',
+    },
+  },
+  {
+    name: 'Nitin Parkash',
+    designation: 'Senior Software Engineer',
+    organisation: 'Upswing',
+    photoUrl: 'https://cache.sessionize.com/image/f9be-200o200o2-pP62Ubsx5FpY6ccc2FhRsR.jpg',
+    bio: 'Nitin Prakash is an Android Engineer, currently working with Upswing Fintech, Ex-Trell, Ex-Byjus. Nitin has completed his graduation in Electronics and Communication from Maharishi Dayanand University, Haryana, and live in New Delhi. After completing his graduation Nitin had worked in the telecom industry for more than 2.5 years and but he also learned java and android while doing his telecom job. He got his first break in the IT industry in Dec-2017 where he worked as an individual contributor to the whole android app SDLC and he developed 9 apps successfully. His passion is to develop more robust android apps and learning every day into small pieces. His fun fact, he is very loquacious if anybody talks about android dev.',
+    links: {
+      linkedin: 'https://www.linkedin.com/in/nitin-prakash9911/',
+      twitter: 'https://twitter.com/NitinDroid',
+      instagram: 'https://www.instagram.com/nitin_prksh/',
+    },
+  },
 
-  // {
-  //   name: 'Kumar Parth',
-  //   designation: 'IPR Expert',
-  //   organisation: 'Commudle',
-  //   photoUrl: 'assets/images/speakers/kumar-parth.webp',
-  //   bio: 'Kumar Parth is a highly motivated professional known for tackling challenging assignments and consistently exceeding expectations. He values collaboration and teamwork and excels at building strong relationships with colleagues and stakeholders. Kumar is committed to continuous learning and leveraging new skills to contribute to organizational success.',
-  //   links: {
-  //     linkedin: 'https://www.linkedin.com/in/kumarparth28/',
-  //     twitter: '',
-  //     github: '',
-  //     others: '',
-  //   },
-  // },
-
-  // {
-  //   name: 'Tushar Saini',
-  //   designation: 'Android Developer',
-  //   organisation: 'Suvich-The Real Astrology',
-  //   photoUrl: 'assets/images/speakers/tushar-saini.webp',
-  //   bio: 'Tushar Saini is an Android developer at Suvich—The Real Astrology, specializing in MVC and clean architecture. With a B.Tech in Computer Science from Sri Sukhmani Institute of Engineering and Technology, he integrates advanced technologies like Agora, Sendbird, and Firebase to enhance user engagement and optimize app functionality.',
-  //   links: {
-  //     linkedin: 'https://www.linkedin.com/in/tushar-saini-b76635145/',
-  //     twitter: 'assets/images/speakers/tushar-saini.webp',
-  //     github: '',
-  //     others: '',
-  //   },
-  // },
-  // {
-  //   name: 'Rahul Prasad',
-  //   designation: 'Founder',
-  //   organisation: 'RSTech Softwares',
-  //   photoUrl: 'assets/images/speakers/rahul-prasad.webp',
-  //   bio: 'Rahul Prasal is the founder of RSTech Softwares, a cutting-edge IT solutions provider. With a blend of entrepreneurial spirit, visionary leadership, and extensive technical expertise in mobile app development, he empowers businesses through innovative technology solutions. A seasoned public speaker and thought leader, Rahul shares his insights at conferences and events, inspiring others to embrace technology transformative potential.',
-  //   links: {
-  //     linkedin: 'https://www.linkedin.com/in/rahulprasad001/',
-  //     twitter: '',
-  //     github: '',
-  //     others: '',
-  //   },
-  // },
 ];
 
 export const MEDIA_PARTNERS = [
@@ -428,7 +357,7 @@ export const FAQS: FAQ[] = [
   {
     question: 'What technologies will be discussed at DevFest Jalandhar 2025?',
     answer:
-      'Technologies like Android, Firebase, Flutter, AI/ML, Google Cloud, TensorFlow, and Web will be discussed at DevFest Jalandhar 2025.',
+      'Technologies like Android, Firebase, Flutter, AI/ML, Google Cloud, TensorFlow, Gemini and Web will be discussed at DevFest Jalandhar 2025.',
   },
   {
     question: 'Will I be able to access the sessions later?',
