@@ -1,9 +1,20 @@
 <div>
   <h2 class="text-dark text-center display-3">Sponsors & Partners</h2>
   <section class="mt-4">
-    <h2 class="text-df-red text-center display-5">Our Sponsors</h2>
+    <h2 class="text-df-red text-center display-5">Title Sponsor</h2>
     <div class="mt-4 d-flex w-100 justify-content-center">
       <app-partner [partner]="googleForDevelopers"></app-partner>
+    </div>
+  </section>
+  <div class="px-5 mt-5" *ngIf="sponsors.length > 0">
+    <hr class="text-df-red" />
+  </div>
+  <section class="mt-4" *ngIf="sponsors.length > 0">
+    <h3 class="text-df-red text-center display-5">Other Sponsors</h3>
+    <div class="mt-4 d-flex w-100 justify-content-center flex-wrap">
+      <div class="px-2 d-flex my-2" *ngFor="let partner of sponsors">
+        <app-partner [partner]="partner"></app-partner>
+      </div>
     </div>
   </section>
   <div class="px-5 mt-5" *ngIf="venuePartners.length > 0">
