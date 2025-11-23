@@ -8,8 +8,9 @@
 </div>
 <div *ngIf="partner.addName"
   class="d-flex justify-content-center align-items-center bg-light p-3 border border-2 border-df-red rounded-6">
-  <a class="d-flex align-items-center" href="{{partner.link}}" target="_blank" [title]="partner.name">
-    <img [src]="partner.image" alt="{{partner.name}} logo" class="img-thumbnail square" />
+  <a class="d-flex align-items-center justify-content-center" href="{{partner.link}}" target="_blank"
+    [title]="partner.name">
+    <img [src]="partner.image" alt="{{partner.name}} logo" class="img-thumbnail square w-25" />
     <p class="ms-3 mb-0 text-df-dark lead">{{partner.name}}</p>
   </a>
 </div>

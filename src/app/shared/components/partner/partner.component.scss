@@ -3,9 +3,9 @@ a {
   height: 80px;
   .img-thumbnail {
     &.square {
-      width: auto;
+      width: 25%;
       height: 75px;
-      object-fit: cover;
+      object-fit: contain;
       box-shadow: none;
       border: 0px none transparent;
       border-radius: 0px;

@@ -56,58 +56,113 @@ export const SPONSORS: IPartner[] = [
 export const COMMUNITY_PARTNERS: IPartner[] = [
   {
     name: 'GDG Chandigarh',
-    link: '',
-    image: 'assets/images/partners/google-community.webp',
+    link: 'https://gdg.community.dev/gdg-chandigarh/',
+    image: 'assets/images/partners/GDG-logo.webp',
     addName: true,
   },
   {
     name: 'GDG Cloud Chandigarh',
-    link: '',
-    image: 'assets/images/partners/google-community.webp',
+    link: 'https://gdg.community.dev/gdg-cloud-chandigarh/',
+    image: 'assets/images/partners/GDG-logo.webp',
     addName: true,
   },
   {
     name: 'GDG on Campus SVIET',
     link: 'https://gdsc.community.dev/swami-vivekanand-institute-of-engineering-technology-chandigarh/',
-    image: 'assets/images/partners/google-community.webp',
+    image: 'assets/images/partners/GDG-logo.webp',
     addName: true,
   },
 
   {
     name: 'GDG on Campus IGC',
     link: 'https://gdg.community.dev/gdg-on-campus-indo-global-college-mohali-india/',
-    image: 'assets/images/partners/google-community.webp',
+    image: 'assets/images/partners/GDG-logo.webp',
     addName: true,
   },
   {
     name: 'GDG on Campus PUP',
     link: 'https://gdg.community.dev/gdg-on-campus-punjabi-university-patiala-india/',
-    image: 'assets/images/partners/google-community.webp',
+    image: 'assets/images/partners/GDG-logo.webp',
     addName: true,
   },
   {
     name: 'GDG on Campus CGC COE',
     link: 'https://gdg.community.dev/gdg-on-campus-chandigarh-group-of-colleges-coe-campus-landran-india/',
-    image: 'assets/images/partners/google-community.webp',
+    image: 'assets/images/partners/GDG-logo.webp',
+    addName: true,
+  },
+  {
+    name: 'GDG on Campus SLIET',
+    link: 'https://gdg.community.dev/gdg-on-campus-sant-longowal-institute-of-engineering-and-technology-longowal-india/',
+    image: 'assets/images/partners/GDG-logo.webp',
+    addName: true,
+  },
+  {
+    name: 'GDG on Campus Chitkara University',
+    link: 'https://gdg.community.dev/gdg-on-campus-chitkara-university-chandigarh-india/',
+    image: 'assets/images/partners/GDG-logo.webp',
     addName: true,
   },
   {
     name: 'GDG on Campus DAV University',
     link: 'https://gdg.community.dev/gdg-on-campus-dav-university-jalandhar-india/',
-    image: 'assets/images/partners/google-community.webp',
+    image: 'assets/images/partners/GDG-logo.webp',
     addName: true,
   },
   {
     name: 'AI Jalandhar',
     link: 'https://www.commudle.com/communities/tfug-jalandhar',
     image: 'assets/images/partners/aicommunityjalandhar.webp',
-    addName: false,
+    addName: true,
   },
   {
     name: 'ML Chandigarh',
     link: 'https://www.commudle.com/communities/tfug-jalandhar',
     image: 'assets/images/partners/mlchandigarh.webp',
     addName: false,
+  },
+  {
+    name: 'FFDG New Delhi',
+    link: 'https://www.meetup.com/ffdg-new-delhi/',
+    image: 'assets/images/partners/FFDG.webp',
+    addName: false,
+  },
+  {
+    name: 'C Square',
+    link: 'https://www.linkedin.com/company/csquare-club/',
+    image: 'assets/images/partners/csquare.webp',
+    addName: true,
+  },
+  {
+    name: 'Encrypt edge',
+    link: 'encrypt-edge.vercel.app',
+    image: 'assets/images/partners/encryptedge.webp',
+    addName: true,
+  },
+
+  {
+    name: 'Learner\'s Arc',
+    link: 'https://www.learnersarc.com/',
+    image: 'assets/images/partners/learnersarc.webp',
+    addName: true,
+  },
+  {
+    name: 'DevHive',
+    link: 'https://www.linkedin.com/company/devhive-club/',
+    image: 'assets/images/partners/devhive.webp',
+    addName: false,
+  },
+  {
+    name: 'CodeZen',
+    link: 'https://www.instagram.com/officialcodezen?igsh=OGU2b3N4Z2N0Njhi',
+    image: 'assets/images/partners/codezen.webp',
+    addName: false,
+  },
+  {
+    name: 'Bug2Build',
+    link: 'https://bug2build.in/',
+    image: 'assets/images/partners/bug2build.webp',
+    addName: true,
   },
   {
     name: 'YATU Learn',
@@ -126,7 +181,7 @@ export const COMMUNITY_PARTNERS: IPartner[] = [
     name: 'Bugbaar',
     link: 'https://bugbaar.vercel.app/',
     image: 'assets/images/partners/bugbaar.webp',
-    addName: false,
+    addName: true,
   },
   {
     name: 'D4 Community',
@@ -141,19 +196,7 @@ export const COMMUNITY_PARTNERS: IPartner[] = [
     image: 'assets/images/partners/opensourcechandigarh.webp',
     addName: false,
   },
-  {
-    name: 'Encrypt edge',
-    link: 'encrypt-edge.vercel.app',
-    image: 'assets/images/partners/encryptedge.webp',
-    addName: false,
-  },
 
-  {
-    name: 'Learner\'s Arc',
-    link: 'https://www.learnersarc.com/',
-    image: 'assets/images/partners/learnersarc.webp',
-    addName: false,
-  },
 
   {
     name: 'Girls Leading Tech',
@@ -168,42 +211,22 @@ export const COMMUNITY_PARTNERS: IPartner[] = [
     image: 'assets/images/partners/mentorle.webp',
     addName: false,
   },
-  {
-    name: 'C Square',
-    link: 'https://www.linkedin.com/company/csquare-club/',
-    image: 'assets/images/partners/csquare.webp',
-    addName: false,
-  },
-  {
-    name: 'CodeZen',
-    link: 'https://www.instagram.com/officialcodezen?igsh=OGU2b3N4Z2N0Njhi',
-    image: 'assets/images/partners/codezen.webp',
-    addName: false,
-  },
+
+
   {
     name: 'CU Updates',
     link: 'https://www.linkedin.com/company/cu-updates/',
     image: 'assets/images/partners/cuupdates.webp',
-    addName: false,
+    addName: true,
   },
-  {
-    name: 'DevHive',
-    link: 'https://www.linkedin.com/company/devhive-club/',
-    image: 'assets/images/partners/devhive.webp',
-    addName: false,
-  },
+
   {
     name: 'HackHalt - Community',
     link: 'hackhalt.org',
     image: 'assets/images/partners/hackhalt.webp',
     addName: false,
   },
-  {
-    name: 'Bug2Build',
-    link: 'https://bug2build.in/',
-    image: 'assets/images/partners/bug2build.webp',
-    addName: true,
-  },
+
   {
     name: 'Elite Coders',
     link: 'http://elitecoders.xyz',
@@ -220,14 +243,27 @@ export const COMMUNITY_PARTNERS: IPartner[] = [
     name: 'Ascent circle',
     link: 'ascentcircle.web.app',
     image: 'assets/images/partners/ascentcircle.webp',
-    addName: false,
+    addName: true,
   },
   {
     name: 'The SEED Club',
     link: 'https://www.linkedin.com/company/seedclub-ssd/',
     image: 'assets/images/partners/seedclub.webp',
+    addName: true,
+  },
+  {
+    name: 'Compile Cafe',
+    link: 'https://www.linkedin.com/company/connectatcompilerscafe/',
+    image: 'assets/images/partners/CompileCafe.webp',
+    addName: true,
+  },
+  {
+    name: 'GFG-Campus Body IKGPTU',
+    link: 'https://gfgikgptucampusbody.netlify.app',
+    image: 'assets/images/partners/GFG-IKGPTU.webp',
     addName: false,
   },
+
 
 ];
 
@@ -320,7 +356,111 @@ Prior to joining Google, she was a Google Developer Expert for Android and was o
       instagram: 'https://www.instagram.com/nitin_prksh/',
     },
   },
+  {
+    name: 'Pawan Kumar',
+    designation: 'Lead Software Engineer',
+    organisation: 'PocketFM',
+    photoUrl: 'https://lh5.googleusercontent.com/-q1f8j7YZ5sY/AAAAAAAAAAI/AAAAAAAAAJU/ja8GpHoleCY/s172-c/photo.jpg',
+    bio: `Tech Lead | LLMs | Mobile Apps | Google Developer Expert - Flutter, Firebase | Polygon 🥑 | Codepur | 142K+ Youtube | 60K+ Linkedin | 40K+ Twitter | International Speaker`,
+    links: {
+      linkedin: 'https://www.linkedin.com/in/imthepk/',
+      twitter: 'https://www.twitter.com/imthepk',
+      youtube: 'https://www.youtube.com/hellocodepur',
+      medium: 'https://www.medium.com/@imthepk',
+      github: 'https://www.github.com/iampawan',
+      others: 'https://pawan.app/'
+    }
+  },
+  {
+    name: 'Saurabh Mishra',
+    designation: 'DevOps Lead',
+    organisation: 'TSYS',
+    photoUrl: 'https://lh3.googleusercontent.com/a/AGNmyxa2DBH7rNCTusFzgAv9Jr2mC2rruAuOwjBnU5bi2rA=s200-c',
+    bio: `Saurabh is a Cloud Architect with a deep passion for DevOps and automation. Saurabh actively engages with the tech community, sharing insights on cloud-native technologies, security, and multi-cloud strategies. As a speaker at various conferences, meetups, and workshops, Saurabh helps teams enhance their cloud adoption and optimization efforts.`,
+    links: {
+      linkedin: 'https://www.linkedin.com/in/connectsaurabhmishra/',
+      medium: 'https://medium.com/@connectsaurabhmishra',
+    }
+  },
 
+  {
+    name: 'Aashi Dutt',
+    designation: 'Organiser',
+    organisation: 'ML Chandigarh',
+    photoUrl: 'https://storage.googleapis.com/advocu-app/images/6597d5c3b52eaef4e46a602e/avatar-images/d2518b5a-1cde-48e8-8a4b-044689715623',
+    bio: `I am a graduate student at Georgia Institute of Technology, pursuing a master's in Computer science (majoring in Machine Learning). I have 3 years of experience combined in both tech and non-tech. I co-founded a Health-tech startup with fellow colleague from MIT Bootcamps and led the positions of founding AI engineer and business operations. I am a 3x Kaggle expert and lead organizer for TensorFlow User Group Chandigarh. I actively write medium blogs under two Gen AI publications and upload paper/book reading session videos on YouTube as well. I love to guide and mentor students in community building and AI/ML. Apart from my contribution towards Google communities, I am also a part of Women at MIT and Founder's Voyage community which gives me exposure to the global tech culture and mostly AI.`,
+    links: {
+      linkedin: 'https://www.linkedin.com/in/aashi-dutt/',
+      twitter: 'https://twitter.com/aashidutt?lang=en',
+      github: 'https://github.com/AashiDutt',
+      medium: 'https://medium.com/@aashi-dutt3',
+      others: 'https://www.kaggle.com/aashidutt3'
+    }
+  },
+  {
+    name: 'Akansha Jain',
+    designation: 'Software Developer',
+    organisation: 'AutoNation',
+    photoUrl: 'https://sessionize.com/image/61cd-200o200o2-TjGqNLfTZx3UQsdZqLriWr.jpg',
+    bio: `Akansha is a Google Women Techmakers Ambassador and an organizer of Flutter Conf India and Flutter Delhi. With over three years of experience as a Flutter Developer, she specializes in creating impactful applications that address real-world challenges. Akansha is passionate about empowering women in technology and is dedicated to promoting diversity and accessibility within the tech community.`,
+    links: {
+      linkedin: 'https://www.linkedin.com/in/akansha-jain-2001/',
+      twitter: 'https://twitter.com/Akansha2001',
+      medium: 'https://medium.com/@akansha.jain1611',
+    }
+  },
+  {
+    name: 'Sakshi Nasha',
+    designation: 'Engineer',
+    organisation: 'Cohesity',
+    photoUrl: 'https://sessionize.com/image/0eed-200o200o2-7YFVrNery82RCAddHkXBYR.jpg',
+    bio: `Sakshi Nasha is a Software Engineer at Cohesity with a passion for building software and driving diversity in tech. An international speaker, she enjoys sharing her experiences and connecting with developer communities. Outside of work, she’s an avid athlete who finds balance through trekking and cycling.`,
+    links: {
+      linkedin: 'https://www.linkedin.com/in/sakshi-nasha/',
+      others: 'https://sakshinasha.github.io/talks/'
+    }
+  },
+  {
+    name: 'Niharika Dhanik',
+    designation: 'Senior Cloud Engineer',
+    organisation: 'Searce Inc.',
+    photoUrl: 'https://sessionize.com/image/3daa-200o200o2-PiuZ9WM4UaLncsfzzf8VFs.png',
+    bio: `I'm a Cloud Engineer who is always eager to learn new culinary techniques, is diving into the art of Observability. My latest creation? A multi-layered masterpiece, infused with the flavors of open-source tools and garnished with a touch of DevOps magic.`,
+    links: {
+      linkedin: 'https://www.linkedin.com/in/niharikadhanik/',
+      twitter: 'https://x.com/DhanikNiharika',
+      instagram: 'https://www.instagram.com/niharikaxdev',
+      medium: 'https://niharicka.medium.com/',
+    }
+  },
+  {
+    name: 'Preksha Mahajan',
+    designation: 'SWE Intern',
+    organisation: 'Nielsen',
+    photoUrl: 'https://sessionize.com/image/cefd-200o200o2-BocctLQpRXNQaX9r9Afiv3.jpg',
+    bio: `Preksha Mahajan is working as a Software Engineer Intern at Nielsen while being a Final Year student pursuing a Bachelor of Engineering degree in Computer Science Engineering.
+
+She has also served as the Community Organiser at Open Source Chandigarh, a dynamic tech community committed to redefining the Open Source and technology ecosystem in Chandigarh, Punjab region and beyond. Previously, she had served as a Mentor (2024-2025) and the Community Lead (2023-2024) of Open Source Chandigarh powered by Chitkara University, Punjab, contributing to fostering a collaborative environment for tech enthusiasts and redefining the future of tech.
+
+She has delivered multiple talks around Open Source, Programming, Web Development and Community Building. She has spoken at notable events like: DevFest Jalandhar '24, International Women's Day '25 by GDG & WTM Jalandhar, FOSS United Jalandhar Meetup '24, MongoDB User Group Chandigarh Meetup '25, etc.
+
+She has been working on various projects using:
+- Languages: Python, C/C++, HTML, CSS, JavaScript
+- Frameworks: FastAPI, Bootstrap
+- Tools: Apache Airflow
+- Databases: MySQL, TrinoSQL, AWS DynamoDB, MongoDB
+- Libraries (Python): Numpy, Pandas, Scikit-Learn, Boto3, Aioboto3, Pydantic, PydanticAI etc.
+
+Preksha is very passionate about community building, team management and content creation. She also led a revolutionary initiative called #100daysofcodeatChitkara on LinkedIn and Twitter, promoting coding culture and craft among students of Chitkara University.
+
+PS: She is also a National level Chess player and represented Punjab in SGFI, 2019.`,
+    links: {
+      linkedin: 'https://www.linkedin.com/in/preksha-mahajan-090359214/',
+      twitter: 'https://x.com/MahajanPreksha',
+      instagram: 'https://www.instagram.com/mahajanpreksha/',
+      medium: 'https://medium.com/@mahajanpreksha',
+    }
+  },
 ];
 
 export const MEDIA_PARTNERS = [
